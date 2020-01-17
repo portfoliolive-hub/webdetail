@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(images/152478202552896.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.header-logo h3 {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 34px;
+    text-transform: lowercase;
+}
+
+.header-logo p {
+    text-transform: uppercase;
+    color: #b300be;
+    font-size: 10px;
+}
+
+.impression p {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.header-logo h5 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    margin-top: 124px;
+    font-size: 45px;
+}
+
+.header-logo button {
+    border: 2px solid #fff;
+    background-color: transparent;
+    height: 40px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+/*** main *****/
+
+
+main {
+    margin-top: 50px;
+}
+
+.step-1 img,
+.step-2 img,
+.step-3 img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-position: center;
+
+}
+
+.step-1 h3,
+.step-2 h3,
+.step-3 h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #ff4cfc;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.step-1 p,
+.step-2 p,
+.step-3 p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.how-works {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+}
+
+.how-works h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+/**** footer ***/
+
+footer {
+    height: 500px;
+    background-image: url(images/hero1.png);
+    background-position: bottom;
+}
+
+
+
+.compain-available {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    padding-top: 150px;
+}
+
+.compain-available button {
+    position: absolute;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    height: 40px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer-card {
+    height: 150px;
+    background-color: #000;
+    position: relative;
+    top: 71px;
+}
+
+.footer-card img {
+    padding: 10px;
+    height: 134px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
